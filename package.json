@@ -1,0 +1,15 @@
+{
+  "name": "gob-js-1",
+  "version": "1.0.0",
+  "description": "Gobelins  - JS =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.twik-labs.fr:etienne-dldc/gob-js-1.git"
+  },
+  "author": "Etienne DELADONCHAMPS <etienne.dldc@outlook.fr> (http://www.etiennedeladonchamps.fr)",
+  "license": "ISC"
+}

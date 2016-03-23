@@ -1,5 +1,5 @@
 {
-  "name": "gob-js-1",
+  "name": "gobelins-cours-javascript",
   "version": "1.0.0",
   "description": "Gobelins  - JS =============",
   "main": "index.js",
@@ -11,5 +11,8 @@
     "url": "git@git.twik-labs.fr:etienne-dldc/gob-js-1.git"
   },
   "author": "Etienne DELADONCHAMPS <etienne.dldc@outlook.fr> (http://www.etiennedeladonchamps.fr)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.7"
+  }
 }

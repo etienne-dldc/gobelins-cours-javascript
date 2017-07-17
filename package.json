@@ -1,0 +1,24 @@
+{
+  "name": "gobelins-cours-javascript",
+  "description": "> Gobelins, l'école de l'image   > DDI 2015-2016   > Cours de Javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ./node_modules/normalize-css/normalize.css ./normalize.css && cp ./node_modules/p5/lib/p5.min.js ./p5.min.js",
+    "deploy": "yarn build && gh-pages -d . --remove node_modules yarn.lock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.twik-labs.fr:etienne-dldc/gob-js-1.git"
+  },
+  "author": "Etienne DELADONCHAMPS <etienne.dldc@outlook.fr> (http://www.etiennedeladonchamps.fr)",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "dependencies": {
+    "normalize-css": "^2.3.1",
+    "p5": "^0.5.11"
+  }
+}

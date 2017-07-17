@@ -1,0 +1,22 @@
+{
+  "name": "gob-js-1",
+  "description": "gob-js",
+  "main": "index.js",
+  "authors": [
+    "Etienne DELADONCHAMPS <etienne.dldc@outlook.fr> (http://www.etiennedeladonchamps.fr)"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.0.0",
+    "p5.js": "p5js#^0.4.23"
+  }
+}

@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ./node_modules/normalize-css/normalize.css ./normalize.css && cp ./node_modules/p5/lib/p5.min.js ./p5.min.js",
+    "deploy": "yarn build && gh-pages -d . --remove node_modules"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,10 @@
   "author": "Etienne DELADONCHAMPS <etienne.dldc@outlook.fr> (http://www.etiennedeladonchamps.fr)",
   "license": "ISC",
   "devDependencies": {
-    "bower": "^1.7.7"
+    "gh-pages": "^1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "normalize-css": "^2.3.1",
+    "p5": "^0.5.11"
+  }
 }
